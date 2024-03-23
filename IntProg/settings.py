@@ -56,6 +56,7 @@ MIDDLEWARE = [
 INTERNAL_IPS = [
     # ...
     "127.0.0.1",
+    'localhost'
     # ...
 ]
 
@@ -78,7 +79,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'IntProg.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
